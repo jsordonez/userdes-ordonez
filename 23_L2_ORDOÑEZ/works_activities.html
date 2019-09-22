@@ -25,6 +25,47 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+	<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+	top: 10;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 100px; /* Same as the width of the sidenav */
+  font-size: 30px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 10px;}
+  .sidenav a {font-size: 30px;}
+}
+</style>
+
   </head>
   <body>
 
@@ -33,6 +74,7 @@
 
       </div>
     </div>
+	
     <div class="page">
     <nav id="colorlib-main-nav" role="navigation">
       <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
@@ -55,7 +97,7 @@
     </nav>
     
     <div id="colorlib-page">
-      <header>
+      <header id="top">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -67,43 +109,83 @@
           </div>
         </div>
       </header>
+	  
 
       <section class="ftco-section">
         <div class="container mt-5">
         	<div class="row justify-content-center mb-5 pb-5">
             <div class="col-md-7 text-center heading-section ftco-animate">
+			<div class="sidenav">
+			<a href="#A1">Activity 1</a>
+			<a href="#A2">Activity 2</a>
+			<a href="#A3">Activity 3</a>
+			<a href="#A4">Activity 4</a>
+			<a href="#A5">Activity 5</a>
+			<a href="#A6">Activity 6</a>
+			<a href="#A7">Activity 7</a>
+			<a href="#A8a">Activity 8a</a>
+			<a href="#A8b">Activity 8b</a>
+			<a href="#A8c">Activity 8c</a>
+			<a href="#A8d">Activity 8d</a>
+			<a href="#A9">Activity 9</a>
+			<a href="#top">Back to top ▲</a>
+		</div>
               <span>Works</span>
               <h2>Activities</h2>
             </div>
           </div>
+		 
           <div class="row d-flex justify-content-center">
             <div class="col-md-8">
-              <h2 class="mb-3">A1: Self Introduction</h2>
+			
+              <h2 class="mb-3" id="A1">A1: Self Introduction</h2>
+			  
               <p align="justify">I am Juan Agustin Ordoñez, people call me Justin. I was born from Naga City but I grew up in Metro Manila.  I live with my parents and with my only sibling. I took my elementary and high school at Don Bosco Manila and Don Bosco Technical College in Mandaluyong.
 </p>
 <p align="justify">I’ve been very active with school activities and extracurricular activities in elementary and high school. My favorite subject was math and I used to be a representative of our school in math conventions during my elementary days. I was once a plus-size kid who later then joined the basketball varsity team in high school. My body shaped better than ever before and with all the hard work I stepped up my game and joined the college basketball varsity team during my senior high school years. When I reached college, since there were no varsity programs offered by the school I focused on playing mobile games. Speaking of college, the first course which I should’ve been enrolled was BS in Marine Transportation which was chosen by my parents. The second course was my personal choice, BS in Multimedia Arts but I thought about the opportunities. That’s why I end up in BS in Information Technology which I also desire and find it wise.
-I expect in learning the basic fundamentals of UI/UX Design and Programming. I hope that this would be a fun and exciting experience and would be taught as creative as possible. I also expect that the subject wouldn’t be boring and it would have exciting projects and activities.
+</p><p align="justify">I expect in learning the basic fundamentals of UI/UX Design and Programming. I hope that this would be a fun and exciting experience and would be taught as creative as possible. I also expect that the subject wouldn’t be boring and it would have exciting projects and activities.
 </p>
-              <p>
+            
                 <img src="images/image_6.jpg" alt="" class="img-fluid">
-              </p>
-              <p>Molestiae cupiditate inventore animi, maxime sapiente optio, illo est nemo veritatis repellat sunt doloribus nesciunt! Minima laborum magni reiciendis qui voluptate quisquam voluptatem soluta illo eum ullam incidunt rem assumenda eveniet eaque sequi deleniti tenetur dolore amet fugit perspiciatis ipsa, odit. Nesciunt dolor minima esse vero ut ea, repudiandae suscipit!</p>
-              <h2 class="mb-3 mt-5">A2: Favorite Application</h2>
+              <img src="images/divider2.gif" width="1100"  class="img-fluid">
+             
+              <h2 class="mb-3 mt-5" id="A2">A2: Favorite Application</h2>
                 <img src="images/angkas.jpg" alt="" class="img-fluid">
-				</figure>
-				<h2 class="mb-3">A3: 1000 Floor Elevator</h2>
+				<p><b><center> Reasons why Angkas is my favorite app </b></center></p>
+				<p align="justify">
+				Angkas is a ride-hailing application like Grab and Uber. What I like about it 
+				is that it beats the traffic in Metro Manila, means to say that I can go to my destination
+				in no time. </p>
+				<p align="justify">As a college student who lives far from my school. This application is a life-saver to me;
+				whenever I need to rush myself to class I'll just pull-out my phone and book from a ride from Angkas.
+				Furthermore, it is cheaper than any ride-hailing applications and they oftenly give more promo codes. It 
+				came to the point that I don't have to pay a single cent. Angkas also prioritize safety, they make sure their customers
+				would be safe by providing helmet, hair caps, face masks, safety procedures, and raincoats (when it's raining ofcourse). 
+				The riders also were taken into serious training before they've become an official partners  of Angkas. </p>
+				<p align="justify">
+				So far, after numerous times of using this application, I haven't experienced any issues. When in fact, the riders
+				were accomodating and friendly as of my experience, they'll talk to you anything under the sun, which really makes
+				me comfortable. Lastly, I've also done multiple deliveries through this application and they are really reliable and 
+				trustworthy people. I highly support and recommend Angkas! 
+				</p>
+				<img src="images/fast.gif" width="1100"  class="img-fluid">
+				<img src="images/divider2.gif" width="1100"  class="img-fluid">
+				
+				<h2 class="mb-3" id="A3">A3: 1000 Floor Elevator</h2>
 				<img src="images/activity3.jpg" alt="" class="img-fluid">
-				<figcaption>
+				<p align="justify" >
 				If I were to design an elevator interface to a 1000 floor building. It would have 10 buttons (0 to 9), from their
 				the users would have to input their desired floor number, after that the users would have to press the add button. 
+				</p>
+				<p align="justify" >
 				They also have an option to re-enter their floor by pressing the x button. Furthermore, after pressing the add button 
 				their desired floor will be shown at the screen, it will be added in the queue list. Witht this concept the users 
 				would be able to reach their floor with no hassle in finding their floor from the traditional elevator button concept.
-				</figcaption>
-				</figure>
+				</p>
+				<img src="images/divider2.gif" width="1100"  class="img-fluid">
 				
 				
-				<h2 class="mb-3">A4: Need Finding</h2>
+				<h2 class="mb-3" id="A4">A4: Need Finding</h2>
 				<p> Problem: </p>
 <p>•	Miscommunication of Manileños and Foreigners to native Filipinos or vice versa.</p>
 <p>•	Difficulty to communicate with the native Filipino dialects when travelling in the Philippines.</p>
@@ -115,16 +197,20 @@ I expect in learning the basic fundamentals of UI/UX Design and Programming. I h
 <p>•	To provide a tool that will bridge language gaps</p>
 <p>Solution: 
 <p>•	Creating application that enables Filipinos and Foreigners to translate their language to their desired native Filipino dialect and vice versa.</p>
-				<h2 class="mb-3">A5: Initial Prototype - Log In Page</h2>
+				<img src="images/find.gif" width="1100" height="50" class="img-fluid">
+				<img src="images/divider2.gif" width="1100"  class="img-fluid">
+				<h2 class="mb-3" id="A5">A5: Initial Prototype - Log In Page</h2>
 				<img src="images/1A5.JPG" alt="" class="img-fluid">
 				<img src="images/2A5.JPG" alt="" class="img-fluid">
 				<img src="images/3A5.JPG" alt="" class="img-fluid">
-				<h2 class="mb-3">A6: Persona</h2>
+				<img src="images/divider2.gif" width="1100"  class="img-fluid">
+				<h2 class="mb-3" id="A6">A6: Persona</h2>
 				<img src="images/persona1.png" alt="" class="img-fluid">
 				<img src="images/persona2.png" alt="" class="img-fluid">
 				<img src="images/persona3.png" alt="" class="img-fluid">
 				<figure>
-				<h2 class="mb-3">A7: Information Design</h2>
+				<img src="images/divider2.gif" width="1100"  class="img-fluid">
+				<h2 class="mb-3" id="A7">A7: Information Design</h2>
 				<img src="images/a7.png" alt="" class="img-fluid">
 				<figcaption>
 				<br><b> How can we improve this?</br></b>
@@ -137,32 +223,31 @@ I expect in learning the basic fundamentals of UI/UX Design and Programming. I h
 				<br>9:30 pm at the Pad, in respect with formality and decency.</br>
 
 				</figcaption>
-				<h2 class="mb-3">A8a: Grid Layout Design</h2>
+				<img src="images/divider2.gif" width="1100"  class="img-fluid">
+				<h2 class="mb-3" id="A8a">A8a: Grid Layout Design</h2>
 				<img src="images/uno.jpg" alt="" class="img-fluid">
 				<figcaption>In this 3 x 3 Grid Layout, I used teal to represent the images file while on the other hand I used pale yellow to represent
 				the texts. </figcaption>
-				<h2 class="mb-3">A8b: Grid Layout Design</h2>
+				<img src="images/divider2.gif" width="1100"  class="img-fluid">
+				<h2 class="mb-3" id="A8b">A8b: Grid Layout Design</h2>
 				<img src="images/dos.jpg" alt="" class="img-fluid">
 				<figcaption>In this 4 x 4 Grid Layout, I used brown to represent the images file while on the other hand I used light blue to represent
 				the texts. </figcaption>
-				<h2 class="mb-3">A8c: Grid Layout Design</h2>
+				<img src="images/divider2.gif" width="1100"  class="img-fluid">
+				<h2 class="mb-3" id="A8c">A8c: Grid Layout Design</h2>
 				<img src="images/tres.jpg" alt="" class="img-fluid">
 				<figcaption>In this 3 x 3 Grid Layout, I replaced the teal figures to actual pictures to represent the images file and I insert sample text to pale yellow figures to represent the texts.</figcaption>
-				<h2 class="mb-3">A8d: Grid Layout Design</h2>
+				<img src="images/divider2.gif" width="1100"  class="img-fluid">
+				<h2 class="mb-3" id="A8d">A8d: Grid Layout Design</h2>
 				<img src="images/quatro.jpg" alt="" class="img-fluid">
 				<figcaption>In this 4 x 4 Grid Layout, I replaced the brown figures to actual pictures to represent the images file and I insert sample text to light blue figures to represent the texts.</figcaption>
-				<h2 class="mb-3">A9: 12-Column Grid Design</h2>		
+				<img src="images/divider2.gif" width="1100"  class="img-fluid">
+				<h2 class="mb-3" id="A9">A9: 12-Column Grid Design</h2>		
 				<img src="images/singko.jpg" alt="" class="img-fluid">
 				<figcaption>In this 12 x 4 Grid Layout, I used a gradient of violet and blue to represent the images file and I used a gradient of light blue and yellow to represent the texts. </figcaption>
 				</figure>
-              <div class="tag-widget post-tag-container mb-5 mt-5">
-                <div class="tagcloud">
-                  <a href="#" class="tag-cloud-link">Activities</a>
-                  <a href="#" class="tag-cloud-link">Collaborate</a>
-                  <a href="#" class="tag-cloud-link">Exercise</a>
-                  <a href="#" class="tag-cloud-link">Enterprise</a>
-                </div>
-              </div>
+				<img src="images/divider2.gif" width="1100"  class="img-fluid">
+             
               
               <div class="about-author d-flex pt-5">
                 <div class="bio align-self-md-center mr-4">
