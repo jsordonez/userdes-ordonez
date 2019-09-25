@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Home | Juan Agustin Ordoñez</title>
@@ -45,7 +45,10 @@
               <ul>
                 <li class="active"><a href="index.html"><span>Home</span></a></li>
                 <li><a href="about.html"><span>About Me</span></a></li>
-                <li><a href="works.html"><span>Works</span></a></li>
+                <li><a href="works_reflections.html"><span>Reflection</span></a></li>
+				<li><a href="works_activities.html"><span>Activities</span></a></li>
+				<li><a href="works_labworks.html"><span>Laboratory Works</span></a></li>
+				<li><a href="learnings.html"><span>Learnings</span></a></li>
                 <li><a href="contact.html"><span>Contact</span></a></li>
               </ul>
             </div>
